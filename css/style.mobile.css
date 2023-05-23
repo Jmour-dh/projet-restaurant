@@ -1,0 +1,105 @@
+/* header */
+
+.header nav h1 {
+  float: none;
+  text-align: center;
+}
+
+.header nav ul {
+  float: none;
+}
+
+.header nav ul li {
+  float: none;
+  border-bottom: 1px dotted #f1c40f;
+}
+
+.header nav ul li a {
+  padding: 10px;
+  text-align: center;
+}
+
+/* class */
+
+.title {
+  text-align: center;
+}
+
+/* vp */
+
+.vp-content {
+  padding: 50px;
+}
+
+.vp-content h1 {
+  font-size: 2rem;
+}
+
+.vp-content p {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+/* menu */
+
+.menu {
+  padding: 2rem 1rem 2rem 1rem;
+  text-align: center;
+}
+
+.menu-list {
+  flex-direction: column;
+}
+
+.menu-elem-img {
+  border-radius: 5px;
+}
+
+/* testimonials */
+
+.testimonials-elem {
+  flex-direction: column;
+}
+
+.testimonials-elem-reverse {
+  flex-direction: column-reverse;
+}
+
+.testimonials-elem-profil {
+  text-align: center;
+}
+
+.testimonials-elem-profil img {
+  display: block;
+  margin: 2rem auto;
+}
+
+/* horaires */
+
+.horaires {
+  padding: 100px 20px 50px 20px;
+}
+
+/* contact */
+
+.contact {
+  padding: 80px 0px 80px 0px;
+  overflow: auto;
+  min-height: 100vh;
+}
+
+.contact-img {
+  float: none;
+  width: 80%;
+  border: 0;
+  border-radius: 5px;
+  margin: auto;
+  display: block;
+  margin-bottom: 3rem;
+}
+
+.contact-text {
+  float: none;
+  width: 95%;
+  text-align: center;
+}
